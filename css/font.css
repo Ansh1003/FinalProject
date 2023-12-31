@@ -1,0 +1,46 @@
+@font-face {
+    font-family: Figtree-Bold;
+    src: url('../font/Figtree-Bold.woff2');
+}
+
+
+@font-face {
+    font-family: Figtree-Italic;
+    src: url('../font/Figtree-Italic.woff2');
+}
+
+
+@font-face {
+    font-family: Figtree-Light;
+    src: url('../Figtree-Light.woff2');
+}
+
+
+@font-face {
+    font-family: Figtree-Medium;
+    src: url('../font/Figtree-Medium.woff2');
+}
+
+
+@font-face {
+    font-family: Figtree-MediumItalic;
+    src: url('../font/Figtree-MediumItalic.woff2');
+}
+
+
+@font-face {
+    font-family: Figtree-Regular;
+    src: url('../font/Figtree-Regular.woff2');
+}
+
+
+@font-face {
+    font-family: Figtree-SemiBold;
+    src: url('../font/Figtree-SemiBold.woff2');
+}
+
+
+@font-face {
+    font-family: figtree;
+    src: url('../font/Figtree-SemiBoldItalic.woff2');
+}
