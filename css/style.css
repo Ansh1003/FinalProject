@@ -68,12 +68,12 @@
     }
 }
 .dropdown-content_brands{
-    margin: 0px 0px 0px 0px;
+    margin: 0px 0px 0px -714px;
 }
 @media (max-width:1245px) {
     .dropdown-content_brands{
         min-width: 900px;
-        margin: 0px 0px 0px -900px;
+        margin: 0px 0px 0px -607px;
     }
 }
 .dropdown:hover .dropdown-content {
