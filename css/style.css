@@ -9,7 +9,7 @@
 .header_logo1{
     padding: 10px;
 }
-@media (max-width:576px) {
+@media (max-width:575px) {
     .header_1_none{
         display: none;
     }
@@ -29,6 +29,16 @@
 .nav_img{
     width: 50px;
 }
+@media (max-width:991px) {
+    .nav_menu{
+        display: none;
+    }
+}
+@media (min-width:992px) {
+    .nav_icon_empty{
+        display: none;
+    }
+}
 .dropdown{
     position: relative;
     display: inline-block;
@@ -37,7 +47,7 @@
     border: none;
     background-color: white;
     color: #002d71;
-    padding: 15px 20px;
+    padding: 15px 15px;
     font-size: 14px;
     font-weight: bold;
 }
@@ -48,38 +58,85 @@
     min-width: 1200px;
     background-color: #fff;
     z-index: 99;
-    transform: 10s;
     padding-top: 50px;
-    margin: 0px 0px 0px -500px;
+    margin: 0px 0px 0px -171px;
 }
 @media (max-width:1245px) {
     .dropdown-content{
         min-width: 900px;
-        margin: 0px 0px 0px -385px;
+        margin: 0px 0px 0px -100px;
     }
 }
 .dropdown-content_bussiness{
-    margin: 0px 0px 0px -610px;
+    margin: 0px 0px 0px -270px;
 }
 @media (max-width:1245px) {
     .dropdown-content_bussiness{
         min-width: 900px;
-        margin: 0px 0px 0px -500px;
+        margin: 0px 0px 0px -200px;
     }
 }
 .dropdown-content_brands{
-    margin: 0px 0px 0px -714px;
+    margin: 0px 0px 0px -366px;
 }
 @media (max-width:1245px) {
     .dropdown-content_brands{
         min-width: 900px;
-        margin: 0px 0px 0px -607px;
+        margin: 0px 0px 0px -297px;
+    }
+}
+
+.dropdown-content_Sustainability{
+    margin: 0px 0px 0px -448px;
+}
+@media (max-width:1245px) {
+    .dropdown-content_Sustainability{
+        min-width: 900px;
+        margin: 0px 0px 0px -398px;
+    }
+}
+
+.dropdown-content_Media{
+    margin: 0px 0px 0px -567px;
+}
+@media (max-width:1245px) {
+    .dropdown-content_Media{
+        min-width: 900px;
+        margin: 0px 0px 0px -500px;
     }
 }
 .dropdown:hover .dropdown-content {
     display: block;
     color: rgb(63, 63, 217);
 }
+.nav_icon{
+    position: relative;
+}
+.nav_icon_content{
+    visibility: hidden;
+    position: absolute;
+    z-index: 99;
+
+}
+.nav_icon:hover .nav_icon_content{
+    visibility: visible;
+}
+.nav_icon_menu{
+    list-style: none;
+    min-width: 100px;
+    margin: 7vh -7vw 0px -60vw;
+    border-radius: 5px;
+    box-shadow: 0px 0px 14px #ccc;
+    padding: 10px 20px;
+}
+.nav_icon_menu li a{
+    text-decoration: none;
+    text-emphasis: 1rem;
+    color: #222;
+    font-weight: 700;
+    padding: 5px 0px;
+}
+
 .menu_hover:hover{
     color: #00d5ff;
 }
