@@ -98,10 +98,13 @@
     font-size: 24px;
     font-weight: 600;
 }
+
+/* Section 3 */
+
 .card-cart{
     background-color: #eef6fe;
     border-radius: 20px;
-    height: 350px;
+    height: 380px;
     padding: 20px;
 
 }
@@ -122,6 +125,9 @@
     background-color: #4ea4f4;
     color: #fff;
 }
+
+/* Footer */
+
 .ft{
     background-color: #f3f4f6;
     color: #000;
