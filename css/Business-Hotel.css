@@ -52,11 +52,13 @@
 }
 .dropbtn{
     border: none;
+    text-decoration: none;
     background-color: white;
     color: #002d71;
     padding: 15px 15px;
     font-size: 14px;
     font-weight: bold;
+
 }
 .dropdown-content{
     display: none;
